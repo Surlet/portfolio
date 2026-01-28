@@ -19,3 +19,6 @@
 </ul>
 
 <h2>Data cleaning</h2>
+<h3>Verifying unique values</h3>
+
+<p>While verifying email-adresses, it became clear that a significant amount of reservations had been made with the email-address of the B&B managers. After questioning them, it appears some of these bookings were made because the customer's email-address was unknown, but on other occasions, these bookings were incorrect and subsequently cancelled. Those incorrect bookings are removed from the data. The same was done with rooms booked on the name of the B&B managers.</p>

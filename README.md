@@ -31,5 +31,19 @@
 <p>The next step is to verify the country of the customer. When scanning for the unique values, it appeared there were different values for the same country. Most of the time, the two-letter ISO code was used, but on certain records, the country name was written in full. I corrected those values in order to have conform data. Additionnally, on two occasions, a city name was filled in instead of the country. This was also corrected.</p>
 <img width="88" height="285" alt="image" src="https://github.com/user-attachments/assets/2c4cb639-1735-41f7-9195-69b4eb4118e0" />
 
+<p>The column "Postcode" (Postal Code) is also checked and corrected where needed</p>
+
+<h3>Checking null values</h3>
+
+<p>The record with a null price were removed from the dataset.</p>
+
+<h3>Checking double values</h3>
+
+There are no double ID values or double reservations numbers
+
+<h3>Standardising data types</h3>
+
+The data types of the date and price columns were checked, they were all correct.
+
 
 
